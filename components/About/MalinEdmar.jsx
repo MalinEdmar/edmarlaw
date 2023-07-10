@@ -47,7 +47,8 @@ const MalinEdmar = () => {
               Malin Edmar <br /> {t("title")}
             </h1>{" "}
             <br />
-            <p>{t("desc")}</p>
+            <p>{t("desc1")}</p>
+            <p>{t("desc2")}</p>
           </div>
         </div>
         <div className={styles.secondRow}>
