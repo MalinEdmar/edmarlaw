@@ -48,6 +48,7 @@ const MalinEdmar = () => {
             </h1>{" "}
             <br />
             <p>{t("desc1")}</p>
+            <br />
             <p>{t("desc2")}</p>
           </div>
         </div>
