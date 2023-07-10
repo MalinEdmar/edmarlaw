@@ -1,0 +1,88 @@
+.container {
+  width: 75%;
+  margin: auto;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.container h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+.container p {
+  color: #4f4f4f;
+  line-height: 26px;
+}
+.container li {
+  color: #4f4f4f;
+  line-height: 26px;
+}
+.button {
+  color: #fff;
+  background-color: #3498db;
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #1e73be;
+}
+.button::before {
+  content: "\f07a"; /* Replace with the desired icon code (e.g., Font Awesome) */
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.button:hover::before {
+  opacity: 1;
+}
+.forwardFlex {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.forwardFlex li {
+  margin-left: 1rem;
+}
+.reverseFlex {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.reverseFlex li {
+  margin-left: 1rem;
+}
+.container img {
+  width: 100%;
+}
+.imageDiv {
+  width: 125%;
+}
+@media only screen and (max-width:600px) {
+    .forwardFlex {
+        flex-direction: column;
+    }
+    .reverseFlex {
+        flex-direction: column;
+    }
+    .container {
+        width: 90%;
+    }
+    .imageDiv {
+        width: 100%;
+    }
+    .container h1 {
+        font-size: 24px;
+    }
+    .container p {
+        text-align: justify;
+    }
+  }

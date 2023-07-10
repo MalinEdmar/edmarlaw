@@ -1,0 +1,81 @@
+.container {
+    width: 75%;
+    margin: auto;
+    padding: 4rem 0;
+}
+.container h1 {
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+}
+.container h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  width: 75%;
+  margin: 2rem auto 4rem auto;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 0 auto;
+    gap: 4rem;
+  }
+  
+  .gridItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #21212B;
+    width: 45%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .gridItem2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #21212B;
+    width: 45%;
+    font-size: 16px;
+  }
+  @media only screen and (max-width:600px) {
+    .hero {
+        background-image: url("/hero.png");
+        background-repeat: no-repeat;
+        background-size:cover ;
+        height: 10rem;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+    .container img {
+        width: 32px;
+    }
+    .container h1 {
+        font-size: 24px;
+    }
+    .gridItem {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+      color: #21212B;
+      font-size: 16px;
+    }
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 auto;
+      gap: 1;
+    }
+    .container h2 {
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+      width: 90%;
+      margin: 2rem auto 4rem auto;
+    }
+}

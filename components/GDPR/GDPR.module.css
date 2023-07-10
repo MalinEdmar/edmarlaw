@@ -1,0 +1,160 @@
+/* .container {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    padding: 4rem 0;
+    flex-direction: column;
+    gap: 2rem;
+}
+.container h1 {
+color: #21212B;
+font-size: 32px;
+}
+.container p {
+    color: #4F4F4F;
+    line-height: 26px;
+}
+.container ul li {
+    color: #4F4F4F;
+    line-height: 26px;
+}
+.container span {
+    color: #01ADEF;
+} */
+/* GridComponent.module.css */
+
+.gridContainer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 4rem;
+    padding: 4rem 0;
+    height: 100%;
+  }
+  .scrollContainer {
+    overflow: auto;
+  }
+  .gridList {
+    width: 30%;
+    padding-right: 10px;
+    position: sticky;
+    align-self: flex-start;
+    top: 15%;
+    background-color: #fff;
+  }
+  .gridList p {
+    color: #4F4F4F;
+    line-height: 26px;
+}
+  .gridList ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .gridList li {
+    cursor: pointer;
+    border-bottom: 1px solid #f2f3f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10px;
+  }
+  
+  .gridList li:hover {
+    background-color: #f0f0f0;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  .gridList li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .gridList li span {
+    font-size: 16px;
+  }
+  
+  .gridList li.active {
+    background-color: #01acef32;
+    
+    font-weight: bold;
+  }
+  
+  .gridContent {
+    width: 70%;
+    padding: 10px;
+  }
+  
+  .gridContent h2 {
+    font-size: 24px;
+    color: #21212B;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .container h1 {
+    color: #21212B;
+    font-size: 32px;
+    margin-top: 2rem;
+    }
+  .gridContent p {
+    color: #4F4F4F;
+    line-height: 26px;
+}
+.gridContent ul li {
+    color: #4F4F4F;
+    line-height: 26px;
+    margin-left: 1rem;
+}
+.gridContent span {
+    color: #01ADEF;
+}
+  .active {
+    background-color: #ff0000; /* Change the color to your preferred active title color */
+  }
+.mobileContainer {
+    display: none;
+}
+  @media only screen and (max-width:600px) {
+    .container {
+      display: none;
+    }
+    .mobileContainer {
+      display: block;
+      width: 100%;
+      margin: auto;
+    }
+    .mobileContainer li {
+      margin-left: 1rem;
+    }
+    .mobileContainer h1 {
+        font-size: 24px;
+        display: none;
+    }
+    .mobileContainer h2 {
+        font-size: 20px;
+        padding: 0 !important;
+        margin-bottom: 1rem;
+    }
+    .gridContent h1 {
+    color: #21212B;
+    font-size: 24px;
+    }
+    .gridContent h2 {
+        font-size: 20px;
+    }
+    .gridContent p {
+        color: #4F4F4F;
+        line-height: 26px;
+        font-size: 14px;
+    }
+    .gridContent ul li {
+        color: #4F4F4F;
+        line-height: 26px;
+    }
+    .gridContent span {
+        color: #01ADEF;
+    }
+}

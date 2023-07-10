@@ -1,0 +1,15 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+.container p {
+    color: #4F4F4F;
+    line-height: 26px;
+}
+.container ul li {
+    color: #4F4F4F;
+    line-height: 26px;
+}
+.container a {
+    color: #01ADEF;
+}

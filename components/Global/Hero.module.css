@@ -1,0 +1,38 @@
+.hero {
+    background-image: url("/hero.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 20rem;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.container h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 48px;
+}
+.container > h1 img {
+    font-weight: 700;
+}
+.container img {
+    width: 402px;
+}
+@media only screen and (max-width:600px) {
+    .hero {
+        background-image: url("/hero.png");
+        background-repeat: no-repeat;
+        background-size:cover ;
+        height: 10rem;
+    }
+    .container img {
+        width: 200px;
+    }
+    .container h1 {
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,65 @@
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0;
+}
+.container h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+.row {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50% !important;
+    margin: auto;
+    margin: 2rem auto;
+}
+.row p {
+    line-height: 2;
+    color: #0A0A0A;
+    font-size: 16px;
+    opacity: 0.65;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.row h6 {
+    font-size: 16px;
+    color: #21212B;
+    margin-bottom: 0.5rem;
+}
+.row span {
+    color: #8c8c8c;
+}
+@media only screen and (max-width:600px) {
+    .hero {
+        background-image: url("/hero.png");
+        background-repeat: no-repeat;
+        background-size:cover ;
+        height: 10rem;
+    }
+    .container img {
+        width: 200px;
+    }
+    .container h1 {
+        font-size: 32px;
+    }
+    .row {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+        margin: auto;
+        margin: 2rem auto;
+    }
+    .row p {
+        line-height: 2;
+        color: #0A0A0A;
+        font-size: 16px;
+        opacity: 0.65;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
