@@ -3,42 +3,36 @@ import React, { useState } from "react";
 import styles from "./Faq.module.css";
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
 import { useTranslations } from "next-intl";
+
+let defaultExpanded = [false, false, false, false, false, false, false, false, false];
 const Faq = () => {
-  const [first, setFirst] = useState(false);
-  const [second, setSecond] = useState(false);
-  const [third, setThird] = useState(false);
-  const [fourth, setFourth] = useState(false);
-  const [fifth, setFifth] = useState(false);
-  const [six, setSix] = useState(false);
-  const [seventh, setSeventh] = useState(false);
-  const [eigth, setEigth] = useState(false);
-  const [ninth, setNinth] = useState(false);
+  const [expandedBullets, setExpanedBullets] = useState([...defaultExpanded])
   const t = useTranslations("Privacy");
+
+  const setExpanded = (i) => {
+    console.log("clicked expanded");
+    let modifiedExpanded = [...defaultExpanded];
+    modifiedExpanded[i] = !expandedBullets[i];
+    setExpanedBullets(modifiedExpanded);
+  }
+
   return (
     <div className="b-faq">
       <div className={styles.container}>
         <div id="faq" className="b-faq_wrapper">
           <div className="b-faq_list">
             <div
-              className={`b-faq_list_item ${first && "open"}`}
-              onClick={() => {
-                setFirst(!first);
-                setSecond(false);
-                setThird(false);
-                setFourth(false);
-                setFifth(false);
-                setSix(false);
-                setNinth(false);
-              }}
+              className={`b-faq_list_item ${expandedBullets[0] && "open"}`}
             >
               <div
                 className="b-faq_list_item_header flex middle between-xs"
                 role="button"
+                onClick={() => setExpanded(0)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("General")}
                 </span>
-                {first ? (
+                {expandedBullets[0] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -46,7 +40,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  first ? "accordin" : "accordinback"
+                  expandedBullets[0] ? "accordin" : "accordinback"
                 }`}
               >
                 <div>
@@ -60,25 +54,17 @@ const Faq = () => {
             </div>
 
             <div
-              className={`b-faq_list_item ${second && "open"}`}
-              onClick={() => {
-                setSecond(!second);
-                setFirst(false);
-                setNinth(false);
-                setThird(false);
-                setFourth(false);
-                setFifth(false);
-                setSix(false);
-              }}
+              className={`b-faq_list_item ${expandedBullets[1] && "open"}`}
             >
               <div
                 className="b-faq_list_item_header flex middle between-xs"
                 role="button"
+                onClick={() => setExpanded(1)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Collection of Personal Data")}
                 </span>
-                {second ? (
+                {expandedBullets[1] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -86,7 +72,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  second ? "accordin" : "accordinback"
+                  expandedBullets[1] ? "accordin" : "accordinback"
                 }`}
               >
                 <div>
@@ -101,25 +87,17 @@ const Faq = () => {
             </div>
 
             <div
-              className={`b-faq_list_item ${third && "open"}`}
-              onClick={() => {
-                setThird(!third);
-                setSecond(false);
-                setFirst(false);
-                setNinth(false);
-                setFourth(false);
-                setFifth(false);
-                setSix(false);
-              }}
+              className={`b-faq_list_item ${expandedBullets[2] && "open"}`}
             >
               <div
                 className="b-faq_list_item_header flex middle between-xs"
                 role="button"
+                onClick={() => setExpanded(2)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("How we process personal data")}
                 </span>
-                {third ? (
+                {expandedBullets[2] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -127,7 +105,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  third ? "accordin" : "accordinback"
+                  expandedBullets[2] ? "accordin" : "accordinback"
                 }`}
               >
                 <div >
@@ -303,25 +281,17 @@ const Faq = () => {
             </div>
 
             <div
-              className={`b-faq_list_item ${fourth && "open"}`}
-              onClick={() => {
-                setFourth(!fourth);
-                setSecond(false);
-                setThird(false);
-                setFirst(false);
-                setNinth(false);
-                setFifth(false);
-                setSix(false);
-              }}
+              className={`b-faq_list_item ${expandedBullets[3] && "open"}`}
             >
               <div
                 className="b-faq_list_item_header flex middle between-xs"
                 role="button"
+                onClick={() => setExpanded(3)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Transfers of personal data")}
                 </span>
-                {fourth ? (
+                {expandedBullets[3] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -329,7 +299,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  fourth ? "accordin" : "accordinback"
+                  expandedBullets[3] ? "accordin" : "accordinback"
                 }`}
               >
                 <div>
@@ -415,25 +385,17 @@ const Faq = () => {
             </div>
 
             <div
-              className={`b-faq_list_item ${fifth && "open"}`}
-              onClick={() => {
-                setFifth(!fifth);
-                setSecond(false);
-                setThird(false);
-                setFourth(false);
-                setFirst(false);
-                setNinth(false);
-                setSix(false);
-              }}
+              className={`b-faq_list_item ${expandedBullets[4] && "open"}`}
             >
               <div
                 className="b-faq_list_item_header flex middle between-xs"
                 role="button"
+                onClick={() => setExpanded(4)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Rights for registered")}
                 </span>
-                {fifth ? (
+                {expandedBullets[4] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -441,7 +403,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  fifth ? "accordin" : "accordinback"
+                  expandedBullets[4] ? "accordin" : "accordinback"
                 }`}
               >
                 <div>
@@ -476,25 +438,17 @@ const Faq = () => {
             </div>
 
             <div
-              className={`b-faq_list_item ${six && "open"}`}
-              onClick={() => {
-                setSix(!six);
-                setSecond(false);
-                setThird(false);
-                setFourth(false);
-                setFifth(false);
-                setFirst(false);
-                setNinth(false);
-              }}
+              className={`b-faq_list_item ${expandedBullets[5] && "open"}`}
             >
               <div
                 className="b-faq_list_item_header flex middle between-xs"
                 role="button"
+                onClick={() => setExpanded(5)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Security")}
                 </span>
-                {six ? (
+                {expandedBullets[5] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -502,7 +456,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  six ? "accordinsp" : "accordinbacksp"
+                  expandedBullets[5] ? "accordinsp" : "accordinbacksp"
                 }`}
               >
                 <div>
@@ -511,26 +465,17 @@ const Faq = () => {
               </div>
             </div>
             <div
-              className={`b-faq_list_item ${seventh && "open"}`}
-              onClick={() => {
-                setSeventh(!seventh);
-                setSix(false);
-                setSecond(false);
-                setThird(false);
-                setFourth(false);
-                setFifth(false);
-                setFirst(false);
-                setNinth(false);
-              }}
+              className={`b-faq_list_item ${expandedBullets[6] && "open"}`}
             >
               <div
                 className="b-faq_list_item_header flex middle between-xs"
                 role="button"
+                onClick={() => setExpanded(6)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Cookies")}
                 </span>
-                {seventh ? (
+                {expandedBullets[5] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -538,7 +483,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  seventh ? "accordinsp" : "accordinbacksp"
+                  expandedBullets[5] ? "accordinsp" : "accordinbacksp"
                 }`}
               >
                 <div>
@@ -547,27 +492,17 @@ const Faq = () => {
               </div>
             </div>
             <div
-              className={`b-faq_list_item ${eigth && "open"}`}
-              onClick={() => {
-                setSeventh(false);
-                setSix(false);
-                setSecond(false);
-                setThird(false);
-                setEigth(!eigth);
-                setFourth(false);
-                setFifth(false);
-                setFirst(false);
-                setNinth(false);
-              }}
+              className={`b-faq_list_item ${expandedBullets[7] && "open"}`}
             >
               <div
                 className="b-faq_list_item_header flex middle between-xs"
                 role="button"
+                onClick={() => setExpanded(7)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Changes to this data protection policy")}
                 </span>
-                {eigth ? (
+                {expandedBullets[5] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -575,7 +510,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  eigth ? "accordinsp" : "accordinbacksp"
+                  expandedBullets[5] ? "accordinsp" : "accordinbacksp"
                 }`}
               >
                 <div>
@@ -584,27 +519,17 @@ const Faq = () => {
               </div>
             </div>
             <div
-              className={`b-faq_list_item ${ninth && "open"}`}
-              onClick={() => {
-                setSeventh(false);
-                setSix(false);
-                setSecond(false);
-                setThird(false);
-                setEigth(false);
-                setFourth(false);
-                setFifth(false);
-                setFirst(false);
-                setNinth(!ninth);
-              }}
+              className={`b-faq_list_item ${expandedBullets[8] && "open"}`}
             >
               <div
                 className="b-faq_list_item_header flex middle between-xs"
                 role="button"
+                onClick={() => setExpanded(8)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Contact")}
                 </span>
-                {ninth ? (
+                {expandedBullets[5] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -612,7 +537,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  ninth ? "accordinsp" : "accordinbacksp"
+                  expandedBullets[5] ? "accordinsp" : "accordinbacksp"
                 }`}
               >
                 <div>
