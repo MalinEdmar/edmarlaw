@@ -472,7 +472,7 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Cookies")}
                 </span>
-                {expandedBullets[5] ? (
+                {expandedBullets[6] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -480,7 +480,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  expandedBullets[5] ? "accordinsp" : "accordinbacksp"
+                  expandedBullets[6] ? "accordinsp" : "accordinbacksp"
                 }`}
               >
                 <div>
@@ -499,7 +499,7 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Changes to this data protection policy")}
                 </span>
-                {expandedBullets[5] ? (
+                {expandedBullets[7] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -507,7 +507,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  expandedBullets[5] ? "accordinsp" : "accordinbacksp"
+                  expandedBullets[7] ? "accordinsp" : "accordinbacksp"
                 }`}
               >
                 <div>
@@ -526,7 +526,7 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Contact")}
                 </span>
-                {expandedBullets[5] ? (
+                {expandedBullets[8] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
@@ -534,7 +534,7 @@ const Faq = () => {
               </div>
               <div
                 className={`b-faq_list_item_content ${
-                  expandedBullets[5] ? "accordinsp" : "accordinbacksp"
+                  expandedBullets[8] ? "accordinsp" : "accordinbacksp"
                 }`}
               >
                 <div>
