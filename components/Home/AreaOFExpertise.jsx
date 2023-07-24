@@ -66,6 +66,10 @@ const AreaOFExpertise = () => {
             <span>{t(item.text)}</span>
           </Link>
         ))}
+        <Link href={`/gdpr`} className={styles.gridItem}>
+          <img src={"/techlogo.png"} alt="" />
+          <span>{"GDPR"}</span>
+        </Link>
       </div>
     </div>
   );
