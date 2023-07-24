@@ -18,7 +18,7 @@ const References = () => {
 
   return (
     <div className={styles.container}>
-      <h1>References</h1>
+      <h1>{t("references_header")}</h1>
       <Slider {...settings}>
         <div className={styles.row}>
           <p>{t("quote1")}</p>
