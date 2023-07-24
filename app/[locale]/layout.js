@@ -17,7 +17,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
-      <body Style={{overflow:"hidden"}}>
+      <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           {children}

@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <main Style={{overflow:"hidden"}}>
+    <main>
         <Hero isEdmr={true} logoImg={"logoedmr"} title={"GDPR"} />
       <GDPR />
     </main>
