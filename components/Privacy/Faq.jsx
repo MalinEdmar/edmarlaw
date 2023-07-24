@@ -332,8 +332,7 @@ const Faq = () => {
                         <td width="198">Dropbox, Inc.</td>
                         <td width="198">EU/EEA/United States</td>
                         <td width="198">
-                          Certification according to EU-U.S Privacy Shield
-                          Framework
+                          Certification according to EU-U.S. Data Privacy Framework
                         </td>
                         <td width="199">Cloud computing, storage and backup</td>
                       </tr>
@@ -341,8 +340,7 @@ const Faq = () => {
                         <td width="198">Google, Inc. (Google Analytics)</td>
                         <td width="198">EU/EEA/ United States</td>
                         <td width="198">
-                          Certification according to EU-U.S Privacy Shield
-                          Framework
+                          Certification according to EU-U.S. Data Privacy Framework
                         </td>
                         <td width="199">Statistics related to our Web site</td>
                       </tr>
@@ -356,8 +354,7 @@ const Faq = () => {
                         <td width="198">Microsoft (Office 365)</td>
                         <td width="198">EU/EEA/ United States</td>
                         <td width="198">
-                          Certification according to EU-U.S Privacy Shield
-                          Framework
+                          Certification according to EU-U.S. Data Privacy Framework
                         </td>
                         <td width="199">Cloud computing, storage and backup</td>
                       </tr>
