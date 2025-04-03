@@ -106,6 +106,7 @@ const Page = () => {
                       href={
                         "https://shop.nj.se/products/internetpublicering-och-sociala-medier-1"
                       }
+                      target="_blank"
                     >
                       Internetpublicering och sociala medier
                     </Link>
@@ -138,6 +139,7 @@ const Page = () => {
                       href={
                         "https://www.nj.se/ekurs-internetpublicering-och-sociala-medier"
                       }
+                      target="_blank"
                     >
                       {t("Online education on Internet publishing")}
                     </Link>
@@ -165,7 +167,10 @@ const Page = () => {
                   />
                   <div className="lg:flex lg:flex-col gap-y-1 underline hidden font-semibold">
                     <div className="lg:flex gap-x-2 underline hidden font-semibold">
-                      <Link href={"https://shop.nj.se/products/domannamn"}>
+                      <Link 
+                        href={"https://shop.nj.se/products/domannamn"}
+                        target="_blank"
+                      >
                         {t("Domain Names – Strategies and Legal Aspects")}
                       </Link>
                       <svg
@@ -186,6 +191,7 @@ const Page = () => {
                         href={
                           "https://www.sweetandmaxwell.co.uk/Product/Dispute-Resolution/Domain-Names-Strategies-and-Legal-Aspects/Hardback-and-eBook-ProView/42960040"
                         }
+                        target="_blank"
                       >
                         {t("Also available in English")}
                       </Link>
@@ -219,6 +225,7 @@ const Page = () => {
                       href={
                         "https://www.jure.se/ns/default.asp?url=visatitel.asp?tuid=17706"
                       }
+                      target="_blank"
                     >
                       {t("The Twilight Zone of Intellectual Property,")}
                     </Link>
