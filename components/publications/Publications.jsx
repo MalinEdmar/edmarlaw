@@ -20,7 +20,7 @@ const Publications = () => {
         <div>
           <h1>{t("Internet publishing and Social Media")}</h1> <br />
           <p> {t("purpose")}</p> <br />
-          {pathname === "/about-us/publications" ? (
+          {pathname === "/se/about-us/publications" ? (
             <ul className="list-disc">
               <li className="list-disc">Får man använda cookies?</li>
               <li>
