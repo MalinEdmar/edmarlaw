@@ -6,7 +6,7 @@ import "./globals.css";
 import { Lato } from "next/font/google";
 
 export function generateStaticParams() {
-  return [{ locale: "en" }, { locale: "de" }];
+  return [{ locale: "en" }, { locale: "se" }];
 }
 
 const lato = Lato({
