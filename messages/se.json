@@ -343,9 +343,9 @@
     "readMore": "Läs mer"
   },
   "Ai": {
-    "subHeader": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",
-    "p1": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar (t.ex. databaser, molnplattformar eller IoT-enheter) som använder dessa modeller för att utföra uppgifter. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
-    "p2": "EdmarLaw kan hjälpa er oavsett om ni utvecklar AI-system eller vill använda dem i er arbetsmiljö. Vi har stor erfarenhet av licensiering av AI-teknik och hjälper till med juridiska frågor vid AI-utvecklingsarbetet och under dess livscykel."
+    "subHeader": "Agentisk AI, generativ AI, prediktiv analys, bild- och taligenkänning, AI-assistenter",
+    "p1": "AI utvecklas snabbt. Dagens AI-verktyg går långt bortom enkel automatisering — generativ AI skapar text, bilder och kod, medan agentiska AI-system kan planera och utföra flersteguppgifter med minimalt mänskligt ingripande. Vanliga användningsområden inkluderar AI-assistenter på arbetsplatsen, automatiserad dokumentanalys, kontraktsgranskning och beslutsstödsverktyg. Datakvalitet, val av modell och driftsättningsmetod är fortsatt avgörande för att bygga ett tillförlitligt AI-system.",
+    "p2": "EdmarLaw kan hjälpa er oavsett om ni utvecklar AI-system eller vill använda dem i er arbetsmiljö. Vi har stor erfarenhet av licensiering av AI-teknik och hjälper till med juridiska frågor under hela AI-utvecklingens livscykel — inklusive efterlevnad av EU:s AI-förordning."
   },
   "AiAct": {
     "subHeader": "AI-förordningen",
@@ -419,18 +419,18 @@
     "p2": "EdmarLaw bistår såväl med domännamnsregistrering som hantering av domännamnstvister, liksom även i strategiska frågor kring användningen av domännamn."
   },
   "AiPage": {
-    "aiDesc1": "Artificiell intelligens (AI) är idag en del av vardagen. Många företag ser möjligheten att med hjälp av AI förenkla arbetet, öka produktiviteten och hjälpa till att förbättra kundrelationer. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
-    "aiDesc2": "En chatbot är en programvara som använder artificiell intelligens för att simulera mänsklig konversation. ChatGPT från OpenAI är ett välkänt exempel på en chatbot. Företag kan integrera den med sina befintliga system genom API:er och anpassa den för att bättre passa den specifika branschen eller syftet med verksamheten.",
+    "aiDesc1": "Artificiell intelligens (AI) har blivit en grundläggande del av affärslivet och vardagen. Dagens AI går långt bortom enkel automatisering — generativ AI skapar text, bilder och kod på begäran, medan agentiska AI-system kan planera och utföra komplexa uppgifter med minimalt mänskligt ingripande. Vanliga användningsområden är till exempel AI-assistenter på arbetsplatsen, automatiserad dokumentanalys, bild- och taligenkänning samt prediktiva analysverktyg.",
+    "aiDesc2": "Välkända AI-assistenter (med underliggande multimodala AI modeller) är till exempel ChatGPT från OpenAI, Claude från Anthropic och Gemini från Google. Företag integrerar dessa verktyg med sina befintliga system via API:er och anpassar dem för specifika branscher eller ändamål.",
     "aiDescSubheader": "AI-modeller och AI-verktyg",
-    "aiDesc3": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar (t.ex. databaser, molnplattformar eller IoT-enheter) som använder dessa modeller för att utföra uppgifter. Till exempel kan en maskininlärningsmodell integreras i ett verktyg för predictive analytics, vilket gör det möjligt för företag att förutsäga trender baserat på historiska data. Datakvaliteten, modellen du använder och den typ av deployment du väljer är avgörande för att skapa ett bra AI-system.",
-    "aiDesc4": "EdmarLaw kan hjälpa dig oavsett om du utvecklar AI-system eller vill använda dem i arbetet. Vi har lång erfarenhet av att licensiera AI-teknik och hjälpa till med juridiska frågor kring AI-utvecklingsarbetet och livscykeln."
+    "aiDesc3": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg de applikationer och plattformar som omsätter dessa modeller i praktiken. Dagens mest kraftfulla AI-verktyg bygger på stora språkmodeller (LLMs) och kan hantera allt från att förutse extrema väderförändringar till att analysera komplexa datamängder. Datakvalitet, val av modell och driftsättningsmetod är fortsatt avgörande för att bygga ett tillförlitligt AI-system.",
+    "aiDesc4": "EdmarLaw kan hjälpa dig oavsett om du utvecklar AI-system eller vill använda dem i arbetet. Vi har lång erfarenhet av att licensiera AI-teknik och hjälpa till med juridiska frågor under hela AI-utvecklingens livscykel — inklusive efterlevnad av EU:s AI-förordning."
   },
   "AiActEu1": {
-    "AiActEu1Desc": "EU:s förordning om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter i samband med AI-utvecklingen."
+    "AiActEu1Desc": "EU:s AI-förordning är världens första heltäckande AI-lag. Den trädde i kraft i augusti 2024 och fasas in successivt fram till 2027. Syftet är att hantera risker för hälsa, säkerhet och grundläggande rättigheter — samtidigt som innovation främjas."
   },
   "AiActEu2": {
     "AiActEuDesc": "AI-system har en stark potential att skapa samhällsnytta och ekonomisk tillväxt i världen. EU anser dock att vissa AI-system kan skapa nya risker relaterade till användarnas säkerhet och grundläggande rättigheter. Vissa kraftfulla AI-modeller som används i stor utsträckning kan till och med utgöra systemrisker.",
-    "AiActEuDesc2": "För att undvika att myndigheter, företag och medborgare inte litar på AI-teknik drog EU slutsatsen att det behövs lagstiftning kring AI, där både fördelar och risker hanteras på lämpligt sätt."
+    "AiActEuDesc2": "För att bygga förtroende för AI bland myndigheter, företag och medborgare drog EU slutsatsen att lagstiftning kring AI var nödvändig — där både möjligheter och risker hanteras på ett balanserat sätt."
   },
   "AiActGdpr": {
     "AiActGdprDesc": "I likhet med GDPR gäller AI-förordningen för både offentliga och privata aktörer inom och utanför EU om AI-systemet görs tillgängligt på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU. AI-förordningen gäller för både leverantörer/providers (t.ex. en utvecklare av en chatbot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
@@ -478,11 +478,11 @@
   },
   "AiModels": {
     "AiModelsDesc": "Hur regleras AI-modeller?",
-    "AiModelsDesc2": "General purpose AI-modeller, inklusive de stora generativ AI-modellerna, kan användas för en mängd olika uppgifter och utgör idag grunden för många AI-system. EU har därför dragit slutsatsen att en leverantör av ett AI-system som integrerar en allmän AI-modell ska få tillgång till all information som behövs för att själv kunna säkerställa att systemet är säkert och förenligt med AI-förordningen. Enligt AI-förordningen är leverantörer av sådana modeller därför skyldiga att lämna ut information till systemleverantörer i senare led. En sådan transparens gör det möjligt att förstå modellerna bättre. Modell-leverantörer måste även ha processer på plats som visar att de följer upphovsrättslagen när de tränar sina modeller.",
+    "AiModelsDesc2": "AI-modeller för allmänna ändamål (GPAI), inklusive stora generativa AI-modeller som GPT och Claude, kan användas för en mängd olika uppgifter och utgör grunden för många AI-system inom EU. Enligt AI-förordningen är leverantörer av sådana modeller skyldiga att lämna ut viss information till systemleverantörer i senare led, vilket möjliggör bättre förståelse och tillsyn av dessa modeller. Modell-leverantörer måste även ha processer på plats som visar att de följer upphovsrättslagen när de tränar sina modeller.",
     "AiModelsDesc3": "Vissa av dessa modeller kan medföra systemrisker om de är mycket kapabla eller används i stor utsträckning. Kraftfulla modeller kan till exempel orsaka allvarliga olyckor eller missbrukas för långtgående cyberattacker. Många individer kan påverkas om en modell sprider skadlig information i många program. Detta är delvis vad EU:s AI-förordning syftar till att hantera."
   },
   "AiOffice": {
-    "AiOfficeDesc": "EU-kommissionen har inrättat ett AI Office för att säkerställa genomförandet av AI-förordningen och stötta medlemsländernas myndigheter i sin tillämpning av AI-förordningen. Alltifrån teknikspecialister till jurister och ekonomer arbetar där. AI Office kommer även se till att reglerna för General purpose AI-modeller efterlevs. I samarbete med AI-utvecklare, forskarsamhället och andra berörda parter kommer AI Office utarbeta code of conducts, genomföra testning och utvärdering av general purpose AI-modeller, begära information samt även tillämpa sanktioner vid behov. Precis som GDPR, innehåller AI-förordningen både åtgärdskrav och höga sanktionsavgifter vid brott mot AI-förordningen. Precis som GDPR, innehåller AI-förordningen både åtgärdskrav och höga sanktionsavgifter vid brott mot AI-förordningen."
+    "AiOfficeDesc": "EU-kommissionen har inrättat ett AI Office för att säkerställa genomförandet av AI-förordningen och stötta medlemsländernas myndigheter i sin tillämpning av AI-förordningen. Alltifrån teknikspecialister till jurister och ekonomer arbetar där. AI Office kommer även se till att reglerna för AI-modeller för allmänna ändamål (GPAI) efterlevs. I samarbete med AI-utvecklare, forskarsamhället och andra berörda parter kommer AI Office utarbeta code of conducts, genomföra testning och utvärdering av AI-modeller för allmänna ändamål (GPAI), begära information samt även tillämpa sanktioner vid behov. Precis som GDPR, innehåller AI-förordningen både åtgärdskrav och höga sanktionsavgifter vid brott mot AI-förordningen."
   },
   "AiPageHeaders": {
     "Ai1": "Artificiell intelligens – AI",

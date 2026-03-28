@@ -349,9 +349,9 @@
     "readMore": "Read more"
   },
   "Ai": {
-    "subHeader": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognitionsoftware",
-    "p1": "While AI models are the underlying algorithms that process data, AI tools are applications or platforms that utilize these models to perform tasks. For instance, a machine learning model can be integrated into a software tool for predictive analytics, enabling businesses to forecast trends based on historical data. The data quality, the model you use and the deployment method you choose are all essential to create a good AI system.",
-    "p2": "EdmarLaw can assist you whether you develop AI systems or want to use them in your work environment. We have extensive experience licensing AI technology and help with legal issues in the AI development work and life cycle."
+    "subHeader": "Agentic AI, generative AI, predictive analytics, image and speech recognition, AI assistants",
+    "p1": "AI is developing rapidly. Today's AI tools go far beyond simple automation — generative AI creates text, images and code, while agentic AI systems can plan and execute multi-step tasks with minimal human input. Common uses include AI assistants in the workplace, automated document analysis, contract review, and decision support tools. The data quality, the model you choose and how you deploy it remain essential to building a reliable AI system.",
+    "p2": "EdmarLaw can assist you whether you develop AI systems or want to use them in your work environment. We have extensive experience licensing AI technology and help with legal issues throughout the AI development lifecycle — including compliance with the EU AI Act."
   },
   "AiAct": {
     "subHeader": "AI Act",
@@ -426,15 +426,15 @@
   },
   "AiPage": {
     "header": "Artificial Intelligence – AI",
-    "aiDesc1": "Artificial intelligence (AI) has become a big part of everyday life. Businesses are realizing the power of AI to make work easier, boost productivity, and help enhance client and customer relationships. AI can help us with learning, reasoning, solving problems and making decisions – all tasks which until recently would require humans. Common examples of AI software are chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines and predictive analytics tools.",
-    "aiDesc2": "A chatbot is a software using artificial intelligence to simulate human conversation. ChatGPT by OpenAI is a well-known example of a chatbot. Businesses can integrate it with their existing systems through APIs, and customize it to better fit the specific industry or purpose of the business.",
+    "aiDesc1": "Artificial intelligence (AI) has become a fundamental part of business and everyday life. AI today goes far beyond simple automation — generative AI creates text, images and code on demand, while agentic AI systems can plan and execute complex multi-step tasks with minimal human input. Common applications include AI assistants in the workplace, automated document analysis, image and speech recognition, and predictive analytics tools.",
+    "aiDesc2": "Well-known examples of AI assistants (with underlying multimodal AI models) are ChatGPT by OpenAI, Claude by Anthropic and Gemini by Google. Businesses integrate these tools with their existing systems through APIs and customize them to fit specific industries or purposes.",
     "aiDescSubheader": "AI models and AI tools",
-    "aiDesc3": "While AI models are the underlying algorithms that process data, AI tools are applications or platforms that utilize these models to perform tasks. For instance, a machine learning model can be integrated into a software tool for predictive analytics, enabling businesses to forecast trends based on historical data. The data quality, the model you use and the deployment method you choose is essential to create a good AI system.",
-    "aiDesc4": "EdmarLaw can assist you whether you develop AI systems or want to use them at work. We have extensive experience licensing AI technology and helping with legal issues in the AI development work and life cycle."
+    "aiDesc3": "While AI models are the underlying algorithms that process data, AI tools are the applications and platforms that put these models to work. Today's most powerful AI tools are built on large language models (LLMs) and can handle everything from predicting extreme weather patterns to analyzing complex datasets. The data quality, the model you choose and how you deploy it remain essential to building a reliable AI system.",
+    "aiDesc4": "EdmarLaw can assist you whether you develop AI systems or want to use them at work. We have extensive experience licensing AI technology and helping with legal issues throughout the AI development lifecycle — including compliance with the EU AI Act."
   },
   "AiActEu1": {
     "header": "What is the AI Act?",
-    "AiActEu1Desc": "The EU AI Act is the world's first AI law. The purpose of it is to address risks to health, safety and fundamental rights."
+    "AiActEu1Desc": "The EU AI Act is the world's first comprehensive AI law, which entered into force in August 2024 and is being phased in through 2027. Its purpose is to address risks to health, safety and fundamental rights while supporting innovation."
   },
   "AiActEu2": {
     "header": "Why did the EU want to regulate use of Artificial Intelligence?",
@@ -492,7 +492,7 @@
   "AiModels": {
     "header": "How are general-purpose AI models regulated?",
     "AiModelsDesc": "How are general-purpose AI models regulated?",
-    "AiModelsDesc2": "General-purpose AI models, including the large generative AI models, can be used for a variety of tasks and are becoming the basis for many AI systems in the EU. Consequently, the EU has concluded that it is crucial that a provider of an AI system integrating a general-purpose AI model has access to all necessary information to ensure the system is safe and compliant with the AI Act. The AI Act therefore obliges providers of such models to disclose certain information to downstream system providers. Such transparency enables a better understanding of these models. Model providers also need to have policies in place to ensure that that they respect copyright law when training their models.",
+    "AiModelsDesc2": "General-purpose AI models (GPAI), including large generative AI models such as GPT and Claude, can be used for a vast range of tasks and form the foundation for many AI systems in the EU. The AI Act therefore obliges providers of such models to disclose certain information to downstream system providers, enabling better understanding and oversight of these models. Model providers also need policies in place to ensure they respect copyright law when training their models.",
     "AiModelsDesc3": "Some of these models could carry systemic risks if they are very capable or widely used. For example, powerful models could cause serious accidents or be misused for far-reaching cyberattacks. Many individuals could be affected if a model propagates harmful biases across many applications. This, in part, is what the EU AI Act aims to contain."
   },
   "AiOffice": {
