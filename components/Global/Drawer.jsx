@@ -11,14 +11,14 @@ const Drawer = ({ onClose }) => {
   const asPath = usePathname();
 
   const getNewPath = (locale) => {
-    if (locale === "en") {
-      return asPath.startsWith("/en/") || asPath.startsWith("/en")
+    if (locale === "se") {
+      return asPath.startsWith("/se/") || asPath.startsWith("/se")
         ? asPath.substring(3)
-        : asPath === "/en"
+        : asPath === "/se"
         ? "/"
         : asPath;
     } else {
-      return asPath.startsWith("/en/") || asPath.startsWith("/en")
+      return asPath.startsWith("/se/") || asPath.startsWith("/se")
         ? `/${locale}${asPath.substring(3)}`
         : `/${locale}${asPath}`;
     }
@@ -40,21 +40,21 @@ const Drawer = ({ onClose }) => {
         }
       >
         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-          {asPath.startsWith("/en") ? (
-            <LinkI
-              className="text-[#00adee]"
-              href={getNewPath("se")}
-              locale="se"
-            >
-              <p>SE</p>
-            </LinkI>
-          ) : (
+          {asPath.startsWith("/se") ? (
             <LinkI
               className="text-[#00adee]"
               href={getNewPath("en")}
               locale="en"
             >
               <p>EN</p>
+            </LinkI>
+          ) : (
+            <LinkI
+              className="text-[#00adee]"
+              href={getNewPath("se")}
+              locale="se"
+            >
+              <p>SE</p>
             </LinkI>
           )}
         </div>
